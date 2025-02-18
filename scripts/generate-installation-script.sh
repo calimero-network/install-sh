@@ -46,7 +46,7 @@ fi
 
 # Construct download URL
 TARBALL_NAME="\${BINARY_NAME}_\${ARCH}-\${PLATFORM}.tar.gz"
-DOWNLOAD_URL="https://github.com/\${REPO}/releases/download/\${BINARY_NAME}-\${VERSION}/\${TARBALL_NAME}"
+DOWNLOAD_URL="https://github.com/\${REPO}/releases/download/\${VERSION}/\${TARBALL_NAME}"
 
 # Ensure installation directory exists
 mkdir -p "\$INSTALL_DIR"
